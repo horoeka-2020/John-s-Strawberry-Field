@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom'
 
 import Home from './Home'
 import Plants from './Plants'
-//import Classifications from './Classifications'
+import Season from'./Season'
 
 
 const App = () => {
@@ -12,8 +12,8 @@ const App = () => {
       <h1>Strawberry Fields Forever</h1>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
-       {/* <Route path='/' component={Plant} /> */}
        <Plants /><Route exact path='/' component={Home} />
+       <Route path='/list/:plants' component={Season} />
       </div>
     </>
   )
