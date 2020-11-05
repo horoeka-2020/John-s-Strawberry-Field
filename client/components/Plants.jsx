@@ -1,19 +1,21 @@
 import React from 'react'
-// import plants from '../../data/plants'
-// import { Link } from 'react-router-dom'
+ import { Link } from 'react-router-dom'
+
+import plants from '../../data/plants.js'
 
 const Plants = () => {
-  // const rankKeys = Object.keys(ranks)
+  const seasonKeys = Object.keys(plants)
   return (
     <div>
-      <h2>Plants</h2>
+      <h2>Seasons</h2>
       <ul>
-        <li>Build your ranks list here</li>
-        {/* {rankKeys.map((rank) => {
-          return <Link to={`/list/${rank}`}>
-            <li key={rank}>{rank}</li>
+        {/* <li>Build your ranks list here</li> */}
+        {seasonKeys.map(plant => {
+         return <Link to={`/${plant}`}>
+          <li key={plant}>{plant}
+          </li>
           </Link>
-        })} */}
+        })}
 
       </ul>
     </div>

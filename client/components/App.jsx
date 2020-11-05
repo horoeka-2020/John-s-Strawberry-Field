@@ -1,9 +1,8 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 
-import Plants from './Plants'
 import Home from './Home'
-import Seasons from './Seasons'
+import Plants from './Plants'
 //import Classifications from './Classifications'
 
 
@@ -13,9 +12,8 @@ const App = () => {
       <h1>Strawberry Fields Forever</h1>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
-      <Route exact path='/' component={Home} />
-        <Seasons />
-        <Route path='/plants' component={Plants} />
+       {/* <Route path='/' component={Plant} /> */}
+       <Plants /><Route exact path='/' component={Home} />
       </div>
     </>
   )
