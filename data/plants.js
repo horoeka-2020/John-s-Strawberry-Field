@@ -4,35 +4,35 @@ const plants = {
       id: 1,
       name: 'Spinach',
       type: 'vegetable',
-      planting: '',
-      image: ''
+      planting: 'The best times to plant are early in the morning or late in the day, so the plants aren’t exposed to the hot sun straight away. Always water plants well before and after planting. Spinach is a powerhouse of vegetable packed with nutrients and vitamins. It’s a fast-growing but short-lived crop that is very easy to grow and is equally happy in the garden or container.',
+      image: '/spinach.jpg'
     },
     {
       id: 2,
       name: 'Avocados',
       type: 'vegetable',
-      planting: '',
-      image: ''
+      planting: 'The best time to plant avocados is late winter through spring. We suggest buying an grafted avocado tree from a garden centre, as seed grown avocados are unreliable and will take a long time to produce fruit. Make sure that the tree is healthy, and the graft has healed. Like building a house a good foundation is the key to success in your garden. The better the soil, the better your plants will grow. Avocados prefer sandy, well-drained soil.',
+      image: '/avocados.jpg'
     },
     {
       id: 3,
       name: 'Blueberries',
       type: 'fruit',
-      planting: '',
-      image: ''
+      planting: 'The blueberry is a good example of a fruit taken from the wild and transformed into an easy to grow edible delight. They thrive in New Zealand’s varying climatic conditions. Blueberries can be planted year-round. The better the soil, the better your berries will grow. Blueberries prefer a free draining, more acidic soil with a high proportion of organic matter. They are best planted in a sheltered, well drained position in full sun. ',
+      image: '/blueberries.jpg'
     },
     {
       id: 4,
       name: 'Mandarins',
       type: 'fruit',
-      planting: '',
-      image: ''
+      planting: 'Mandarin trees are the most cold-resistant of the citrus trees.  Their fruit, however, is thin-skinned and small in size, which makes them more susceptible to cold damage than the larger orange and grapefruit. Mandarins grow better when the weather is hot and humid. The trees need protection from frost. Like building a house a good foundation is the key to success in your garden. The better the soil, the better your plants will grow. If you are starting with an existing garden bed dig in organic matter like Tui Sheep Pellets and Tui Compost to your soil. Then you can add a layer of Tui Garden Mix',
+      image: '/mandarins'
     },
     {
       id: 5,
       name: 'Daffodil',
       type: 'flower',
-      planting: '',
+      planting: 'Nothing quite says spring has arrived like Daffodil’s do. These well-known garden treasures come in a wide range of shapes, sizes, colours and types. The days of only bright yellow Daffodils being available are gone; now you can find numerous shades of white, orange, lemon, cream and ivory. There is bound to be a Daffodil to suit most gardens, and they’re almost fool proof. Ideal for picking for the vase as they last for over a week. Growing Daffodil’s is easy, generally all they need is a good, fertile, free-draining soil and plenty of sun. Choose a well-drained site for your Daffodil’s as they loathe wet feet. They thrive in pots & containers too, so you have lots of options about where you can place and plant your bulbs. Daffodils need plenty of sun to flower, but will flower well if planted under deciduous trees, as the sunlight will be able to get through the branches when the tree has no leaves.',
       image: ''
     },
     {
