@@ -10,11 +10,14 @@ const Season = (props) => {
     <h2>What to grow</h2>
     <ul>
       {plants[seasonName].map((plant) => {
-        return <Link to={`/rank/${seasonName}/${plant.name}`}>
+        return <Link to={`/${seasonName}`}>
           <li key={plant.id}>{plant.name}</li>
         </Link>
       })}
     </ul>
     </div>
+)}
 
 export default Season
+
+// ${plant.name}`

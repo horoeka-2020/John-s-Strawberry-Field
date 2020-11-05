@@ -13,7 +13,7 @@ const App = () => {
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
        <Plants /><Route exact path='/' component={Home} />
-       <Route path='/list/:plants' component={Season} />
+       <Route path='/:plants' component={Season} />
       </div>
     </>
   )
