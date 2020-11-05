@@ -2,42 +2,42 @@ const plants = {
   Spring: [
     {
       id: 1,
-      name: '',
+      name: 'Spinach',
       type: 'vegetable',
       planting: '',
       image: ''
     },
     {
       id: 2,
-      name: '',
+      name: 'Avocados',
       type: 'vegetable',
       planting: '',
       image: ''
     },
     {
       id: 3,
-      name: '',
+      name: 'Blueberries',
       type: 'fruit',
       planting: '',
       image: ''
     },
     {
       id: 4,
-      name: '',
+      name: 'Mandarins',
       type: 'fruit',
       planting: '',
       image: ''
     },
     {
       id: 5,
-      name: '',
+      name: 'Daffodil',
       type: 'flower',
       planting: '',
       image: ''
     },
     {
       id: 6,
-      name: '',
+      name: 'Tulip',
       type: 'flower',
       planting: '',
       image: ''
@@ -46,42 +46,42 @@ const plants = {
   Summer: [
     {
       id: 7,
-      name: '',
+      name: 'Sweet Potatoes',
       type: 'vegetable',
       planting: '',
       image: ''
     },
     {
       id: 8,
-      name: '',
+      name: 'Tomatoes',
       type: 'vegetable',
       planting: '',
       image: ''
     },
     {
       id: 9,
-      name: '',
+      name: 'Watermelon',
       type: 'fruit',
       planting: '',
       image: ''
     },
     {
       id: 10,
-      name: '',
+      name: 'Mango',
       type: 'fruit',
       planting: '',
       image: ''
     },
     {
       id: 11,
-      name: '',
+      name: 'Marigolds',
       type: 'flower',
       planting: '',
       image: ''
     },
     {
       id: 12,
-      name: '',
+      name: ' Gaillardia',
       type: 'flower',
       planting: '',
       image: ''
@@ -90,42 +90,42 @@ const plants = {
   Autumn: [
     {
       id: 13,
-      name: '',
+      name: 'Broccoli',
       type: 'vegetable',
       planting: '',
       image: ''
     },
     {
       id: 14,
-      name: '',
+      name: 'Brussel Sprouts',
       type: 'vegetable',
       planting: '',
       image: ''
     },
     {
       id: 15,
-      name: '',
+      name: 'Apples',
       type: 'fruit',
       planting: '',
       image: ''
     },
     {
       id: 16,
-      name: '',
+      name: 'Pears',
       type: 'fruit',
       planting: '',
       image: ''
     },
     {
       id: 17,
-      name: '',
+      name: 'Chrysanthemum',
       type: 'flower',
       planting: '',
       image: ''
     },
     {
       id: 18,
-      name: '',
+      name: 'Aster',
       type: 'flower',
       planting: '',
       image: ''
