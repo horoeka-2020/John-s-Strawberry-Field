@@ -1,12 +1,14 @@
 import React from 'react'
+
+import seasons from '../../data/plants'
 // import plants from '../../data/plants'
 // import { Link } from 'react-router-dom'
 
-const Plants = () => {
+const Seasons = () => {
   // const rankKeys = Object.keys(ranks)
   return (
     <div>
-      <h2>Plants</h2>
+      <h2>Seasons</h2>
       <ul>
         <li>Build your ranks list here</li>
         {/* {rankKeys.map((rank) => {
@@ -20,4 +22,4 @@ const Plants = () => {
   )
 }
 
-export default Plants
+export default Seasons
