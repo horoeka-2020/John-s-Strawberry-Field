@@ -10,6 +10,16 @@
     "client": "webpack --watch",
     "server": "node server"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/horoeka-2020/John-s-Strawberry-Field.git"
