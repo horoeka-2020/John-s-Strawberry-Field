@@ -4,7 +4,7 @@ body {
   justify-content: space-around;
   align-items: center;
   font-family: 'Syne Mono', sans-serif;
-  background-image: url('./images/background.jpg');
+  background-image: url('./images/strawberries.jpg');
   color: blueviolet;
 }
 
@@ -20,9 +20,10 @@ h2 {
 
 p {
   font-size: 30px;
-  background-color: white;
+  background-color: black;
+  padding: 45px;
   border: 10px;
-  
+  color: white
 }
 
 button {
