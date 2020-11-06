@@ -7,12 +7,11 @@ const Plants = () => {
   const seasonKeys = Object.keys(plants)
   return (
     <div>
-      <h2>Seasons</h2>
       <ul>
         {seasonKeys.map(plant => {
          return <Link key={plant} to={`/${plant}`}>
-          <li>{plant}
-          </li>
+          <button type="button" >{plant}
+          </button>
           </Link>
         })}
       </ul>

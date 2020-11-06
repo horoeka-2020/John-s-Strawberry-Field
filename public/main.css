@@ -1,35 +1,56 @@
 body {
   display: flex;
+  display
   justify-content: space-around;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Syne Mono', sans-serif;
+  background-image: url('./images/background.jpg');
+  color: blueviolet;
 }
 
+h1 {
+  background-color: white;
+  border: 10px;
+}
+
+h2 {
+  background-color: white;
+  border: 10px;
+}
+
+p {
+  font-size: 30px;
+  background-color: white;
+  border: 10px;
+  
+}
+
+button {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  align-items: center;
+}
 .main {
   display: flex;
   flex-direction: row;
 }
 
-.main div {
-  margin: 0px 10px 0px 10px;
-}
-
-.background {
-  background-image: url('./background.jpg');
-}
+/* .background {
+  background-image: url('./images/background.jpg');
+} */
 
 .spring {
-  background-image: url('./spring.jpg');
+  background-image: url('./images/spring.jpg');
 }
 
 .summer {
-  background-image: url('./summer.jpg');
+  background-image: url('./images/summer.jpg');
 }
 
 .autumn {
-  background-image: url('./autumn.jpg');
+  background-image: url('./images/autumn.jpg');
 }
 
 .winter {
-  background-image: url('./winter.jpg');
+  background-image: url('./images/winter.jpg');
 }
