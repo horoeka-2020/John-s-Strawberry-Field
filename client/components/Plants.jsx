@@ -1,5 +1,5 @@
 import React from 'react'
- import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import plants from '../../data/plants.js'
 
@@ -9,14 +9,12 @@ const Plants = () => {
     <div>
       <h2>Seasons</h2>
       <ul>
-        {/* <li>Build your ranks list here</li> */}
         {seasonKeys.map(plant => {
-         return <Link to={`/${plant}`}>
-          <li key={plant}>{plant}
+         return <Link key={plant} to={`/${plant}`}>
+          <li>{plant}
           </li>
           </Link>
         })}
-
       </ul>
     </div>
   )
